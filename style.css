@@ -32,7 +32,7 @@ nav{
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif
+    font-family: 'Oswald', sans-serif;
 }   
 
 .nav-menu li a{
@@ -40,11 +40,38 @@ nav{
     color: #fff;
     padding-left: 10px;
     padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-menu li a:hover{
+    color: #F2AC32;
 }
 
 .header-title-1 {
     color: #F2AC32;
-    font-size: 24px;
+    font-size: 44px;
     font-family: 'Rochester', cursive;
+    margin-top: 170px;
+    margin-bottom: 15px;
+}
 
+.header-title-2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 55px;
+    letter-spacing: 6px;
+    margin-bottom: 30px;
+}
+
+.header-cta-button{
+    color: #fff;
+    background-color: #F2AC32;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-cta-button:hover {
+    background-color: rgb(187, 124, 16);
 }
